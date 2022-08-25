@@ -23,6 +23,12 @@ module.exports = {
     "react/prop-types": [0],
     "func-names": ["error", "never"],
     quotes: "off",
+    'react/jsx-props-no-spreading': [
+      1,
+      {
+        explicitSpread: 'ignore',
+      },
+    ],
     "prop-types": "off",
     "no-continue": "off",
     "guard-for-in": "off",

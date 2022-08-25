@@ -1,10 +1,11 @@
 import * as contentstack from "contentstack";
 import * as Utils from "@contentstack/utils";
+import { Stack as StackInterface } from "contentstack";
 
-const Stack = contentstack.Stack({
+const Stack: StackInterface = contentstack.Stack({
   api_key: process.env.CONTENTSTACK_API_KEY,
   delivery_token: process.env.CONTENTSTACK_DELIVERY_TOKEN,
-  environment: process.env.CONTENTSTACK_ENVIRONMENT
+  environment: process.env.CONTENTSTACK_ENVIRONMENT,
 });
 
 if (process.env.CONTENTSTACK_API_HOST) {
@@ -12,10 +13,15 @@ if (process.env.CONTENTSTACK_API_HOST) {
 }
 
 const renderOption = {
-  ["span"]: (node, next) => {
-    return next(node.children);
-  },
+  span: (node, next) => next(node.children),
 };
+
+export type EntryType = {
+  contentTypeUid: string;
+  entryUrl: string;
+  referenceFieldPath?: string[];
+  jsonRtePath?: string[];
+}
 
 export default {
   /**
@@ -26,7 +32,7 @@ export default {
    * @param {* Json RTE path} jsonRtePath
    *
    */
-  getEntry({ contentTypeUid, referenceFieldPath, jsonRtePath }) {
+  getEntry({ contentTypeUid, referenceFieldPath, jsonRtePath }: Omit<EntryType, 'entryUrl'>) {
     return new Promise((resolve, reject) => {
       const query = Stack.ContentType(contentTypeUid).Query();
       if (referenceFieldPath) query.includeReference(referenceFieldPath);
@@ -36,8 +42,8 @@ export default {
         .find()
         .then(
           (result) => {
-            jsonRtePath &&
-              Utils.jsonToHTML({
+            jsonRtePath
+              && Utils.jsonToHTML({
                 entry: result,
                 paths: jsonRtePath,
                 renderOption,
@@ -46,7 +52,7 @@ export default {
           },
           (error) => {
             reject(error);
-          }
+          },
         );
     });
   },
@@ -60,7 +66,9 @@ export default {
    * @param {* Json RTE path} jsonRtePath
    * @returns
    */
-  getEntryByUrl({ contentTypeUid, entryUrl, referenceFieldPath, jsonRtePath }) {
+  getEntryByUrl({
+    contentTypeUid, entryUrl, referenceFieldPath, jsonRtePath,
+  }: EntryType) {
     return new Promise((resolve, reject) => {
       const blogQuery = Stack.ContentType(contentTypeUid).Query();
       if (referenceFieldPath) blogQuery.includeReference(referenceFieldPath);
@@ -68,8 +76,8 @@ export default {
       const data = blogQuery.where("url", `${entryUrl}`).find();
       data.then(
         (result) => {
-          jsonRtePath &&
-            Utils.jsonToHTML({
+          jsonRtePath
+            && Utils.jsonToHTML({
               entry: result,
               paths: jsonRtePath,
               renderOption,
@@ -78,7 +86,7 @@ export default {
         },
         (error) => {
           reject(error);
-        }
+        },
       );
     });
   },

@@ -1,0 +1,92 @@
+{"level":"info","message":"Starting assets export"}
+{"level":"info","message":"Downloaded Virginia_Woolf_Headshot.jpg: blt359825b1a819e2c6 successfully!"}
+{"level":"info","message":"Downloaded Maya_Angelou_Headshot.jpg: blt651a476cadeeab9f successfully!"}
+{"level":"info","message":"Downloaded AlbertEinstein.jpeg: blt8a96b8ad7fecc2f3 successfully!"}
+{"level":"info","message":"Downloaded pierre-cox.svg: bltc2012bae72431255 successfully!"}
+{"level":"info","message":"Downloaded alden-cantrell.svg: blt1a2ecf1e8bfaf65f successfully!"}
+{"level":"info","message":"Downloaded security.svg: blt7ad398b9858deaf3 successfully!"}
+{"level":"info","message":"Downloaded data-mining.svg: blt96a45165586f79ad successfully!"}
+{"level":"info","message":"Downloaded modern-cloud-ecosystem.svg: blt208ff3a42dbd58b5 successfully!"}
+{"level":"info","message":"Downloaded Charlotte_Bronte_Headshot.png: bltd53669cf81ec2f20 successfully!"}
+{"level":"info","message":"Downloaded Mark_Twain_Headshot.jpg: blt1af2195bae15f21e successfully!"}
+{"level":"info","message":"Downloaded W._E._B._Du_Bois_Headshot.jpg: bltc469de3946a7fe2c successfully!"}
+{"level":"info","message":"Downloaded company-logo.svg: blt635eee0c9a55bbab successfully!"}
+{"level":"info","message":"Downloaded our-story.svg: blt6c90bcb3b5177d0a successfully!"}
+{"level":"info","message":"Downloaded Charles_Dickens_Headshot.jpg: blt0598cc11137935b1 successfully!"}
+{"level":"info","message":"Downloaded Zora_Neale_Hurston_Headshot.jpg: bltadde81ff5cb73918 successfully!"}
+{"level":"info","message":"Downloaded about-us.svg: blt4e1159b9f0be4413 successfully!"}
+{"level":"info","message":"Downloaded cierra-vega.svg: blt5d8531dafa336697 successfully!"}
+{"level":"info","message":"Downloaded traditional-decoupled-_headless-cms.svg: blt5f9e23dbfbab82a3 successfully!"}
+{"level":"info","message":"Downloaded business-with-al.svg: bltd0aae2e59537e941 successfully!"}
+{"level":"info","message":"Downloaded thomas-crane.svg: bltd36b33dd09f8ac59 successfully!"}
+{"level":"info","message":"Batch no 1 of assets is complete"}
+{"level":"info","message":"Downloaded Twitter.svg: blte5b3c1728de3b65e successfully!"}
+{"level":"info","message":"Downloaded winning-digital-strategy.svg: blt534a90b0b2212e26 successfully!"}
+{"level":"info","message":"Downloaded headless-cms-solution.svg: blt60e1782b91b3e67c successfully!"}
+{"level":"info","message":"Downloaded bucket3.svg: bltb33f3e8ad269688f successfully!"}
+{"level":"info","message":"Downloaded help-for-the-next-step.svg: bltc879da7e9fb0d692 successfully!"}
+{"level":"info","message":"Downloaded cloud-computing.svg: bltf1860c3cb184c69e successfully!"}
+{"level":"info","message":"Downloaded facebook.svg: bltefbe39f51648fea7 successfully!"}
+{"level":"info","message":"Downloaded Jane_Austen_Headshot.jpg: blt9cf2028dab33596c successfully!"}
+{"level":"info","message":"Downloaded bucket2.svg: blt57fbaedb3c30813a successfully!"}
+{"level":"info","message":"Downloaded map-of-brimingham-city.svg: blt548fba58b88804c8 successfully!"}
+{"level":"info","message":"Downloaded Instagram.svg: bltd8e8adae9eee708b successfully!"}
+{"level":"info","message":"Downloaded Icon_Artwork_1.svg: bltf834b0d88b731d02 successfully!"}
+{"level":"info","message":"Downloaded bucket1.svg: blt6d96a3c83761fdd4 successfully!"}
+{"level":"info","message":"Downloaded Icon_Artwork_2.svg: blt89e26840eb8e100e successfully!"}
+{"level":"info","message":"Downloaded artificial-intelligence.svg: bltb38e07bc8ec04c85 successfully!"}
+{"level":"info","message":"Downloaded ben.jpeg: blt87822b290aa64d24 successfully!"}
+{"level":"info","message":"Batch no 21 of assets is complete"}
+{"level":"info","message":"Asset-folders have been successfully exported!"}
+{"level":"info","message":"Asset export completed successfully"}
+{"level":"info","message":"Starting locale export"}
+{"level":"info","message":"Ukrainian - Ukraine locale was exported successfully"}
+{"level":"info","message":"All the locales have been exported successfully"}
+{"level":"info","message":"Starting environment export"}
+{"level":"info","message":"All the environments have been exported successfully"}
+{"level":"info","message":"Starting extension export"}
+{"level":"info","message":"All the extensions have been exported successfully"}
+{"level":"info","message":"Starting webhooks export"}
+{"level":"info","message":"No webhooks found"}
+{"level":"info","message":"Starting Global Fields export"}
+{"level":"info","message":"Global Fields export completed successfully"}
+{"level":"info","message":"Starting content type export"}
+{"level":"info","message":"Content type(s) exported successfully"}
+{"level":"info","message":"Starting workflow export"}
+{"level":"info","message":"No workflow were found in the Stack"}
+{"level":"info","message":"Starting entry migration"}
+{"level":"info","message":"Exported entries of footer to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of page_from_postman to the en-us language successfully"}
+{"level":"info","message":"Exported entries of page_from_postman to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of vvv_pdp to the en-us language successfully"}
+{"level":"info","message":"Exported entries of vvv_pdp to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of product_catogory to the en-us language successfully"}
+{"level":"info","message":"Exported entries of product_catogory to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of omni_channel to the en-us language successfully"}
+{"level":"info","message":"Exported entries of omni_channel to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of news to the en-us language successfully"}
+{"level":"info","message":"Exported entries of news to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of news_category to the en-us language successfully"}
+{"level":"info","message":"Exported entries of news_category to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of global_settings to the en-us language successfully"}
+{"level":"info","message":"Exported entries of global_settings to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of complex_menu to the en-us language successfully"}
+{"level":"info","message":"Exported entries of complex_menu to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of header to the en-us language successfully"}
+{"level":"info","message":"Exported entries of header to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of page to the en-us language successfully"}
+{"level":"info","message":"Exported entries of page to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of author to the en-us language successfully"}
+{"level":"info","message":"Exported entries of author to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of faq to the en-us language successfully"}
+{"level":"info","message":"Exported entries of faq to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of blog_post to the en-us language successfully"}
+{"level":"info","message":"Exported entries of blog_post to the uk-ua language successfully"}
+{"level":"info","message":"Exported entries of footer to the en-us language successfully"}
+{"level":"info","message":"Entry migration completed successfully"}
+{"level":"info","message":"Starting labels export"}
+{"level":"info","message":"rest labels was exported successfully"}
+{"level":"info","message":"blog labels was exported successfully"}
+{"level":"info","message":"All the labels have been exported successfully"}
+{"level":"info","message":"The content of the blt3994985b03f0835d has been exported successfully!"}
+{"level":"info","message":"The log for this is stored at content/logs/export"}

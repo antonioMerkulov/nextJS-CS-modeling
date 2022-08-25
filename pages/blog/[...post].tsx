@@ -1,6 +1,7 @@
 import React from "react";
 import moment from "moment";
 import parse from "html-react-parser";
+// eslint-disable-next-line import/extensions,import/no-unresolved
 import Stack from "../../sdk-plugin/index";
 import Layout from "../../components/layout";
 
@@ -8,7 +9,9 @@ import RenderComponents from "../../components/render-components";
 import ArchiveRelative from "../../components/archive-relative";
 
 export default function BlogPost(props) {
-  const { header, banner, footer, result } = props;
+  const {
+    header, banner, footer, result,
+  } = props;
   return (
     <Layout header={header} footer={footer} page={banner} blogpost={result}>
       {banner.page_components && (
@@ -24,7 +27,9 @@ export default function BlogPost(props) {
         <div className="blog-detail">
           <h2>{result.title ? result.title : ""}</h2>
           <p>
-            {moment(result.date).format("ddd, MMM D YYYY")},{" "}
+            {moment(result.date).format("ddd, MMM D YYYY")}
+            ,
+            {" "}
             <strong>{result.author[0].title}</strong>
           </p>
           {typeof result.body === "string" && parse(result.body)}

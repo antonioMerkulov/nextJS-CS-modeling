@@ -8,6 +8,8 @@ import moment from "moment";
 import Link from "next/link";
 
 import parse from "html-react-parser";
+import { GetServerSideProps } from "next";
+// eslint-disable-next-line import/extensions,import/no-unresolved
 import Stack from "../../sdk-plugin/index";
 import Layout from "../../components/layout";
 
@@ -87,7 +89,7 @@ export default function Blog(props) {
   );
 }
 
-export async function getServerSideProps(context) {
+export const getServerSideProps: GetServerSideProps = async (context) => {
   try {
     const blog = await Stack.getEntryByUrl({
       contentTypeUid: "page",
@@ -129,4 +131,4 @@ export async function getServerSideProps(context) {
     console.error(error);
     return { notFound: true };
   }
-}
+};
